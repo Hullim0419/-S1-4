@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    background-color: rgb(4, 112, 254);
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.top h1, .top p {
+    display: flex;
+    color: white;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    padding-left: 27%;
+    padding-right: 27%;
+}
+
+.day{
+    color: gray;
+    display: flex;
+    justify-content: end;
+}
+
+.source{
+    color: gray;
+    display: flex;
+    justify-content: end;
+}
+
+.content h1, .top-con, .bot-con {
+    display: flex;
+    justify-content: center;
+
+}
+
+.content h1 {
+    font-weight: 700;
+}
+
+.top-con, .bot-con {
+    font-size: large;
+    font-weight: 500;
+    display: flex;
+    justify-content: start;
+}
+
+
+.top-con {
+    margin-top: 2%;
+}
+
+.bot-con {
+    margin-bottom: 3%;
+}
